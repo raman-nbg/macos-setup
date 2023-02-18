@@ -19,6 +19,11 @@ Default setup on MacOS for software development
     brew install openjdk@18
     brew install openjdk@17
     brew install openjdk@11
+
+    sudo ln -sfn /opt/homebrew/opt/openjdk@19/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+    sudo ln -sfn /opt/homebrew/opt/openjdk@18/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+    sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+    sudo ln -sfn /opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
     ```
 
 3. Install openJDK 8 for Apple M1
